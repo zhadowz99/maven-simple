@@ -1,4 +1,4 @@
-node {
+node('jenkins-agent-java-1') {
    def mvnHome
    stage('Preparation') {         
       mvnHome = tool 'Maven 2.2.1'
