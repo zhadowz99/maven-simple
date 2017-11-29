@@ -1,6 +1,6 @@
 node('jenkins-agent-java-1') {
    
-   deletedir()
+   deleteDir()
    
    def mvnHome
    stage('Preparation') {         
