@@ -1,4 +1,7 @@
 node('jenkins-agent-java-1') {
+   
+   deletedir()
+   
    def mvnHome
    stage('Preparation') {         
       mvnHome = tool 'Maven 2.2.1'
